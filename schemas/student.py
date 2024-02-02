@@ -1,4 +1,4 @@
-#schemas helps to serializer and also convert mongodb format to out ui needed json
+#schemas helps to serializer and also convert mongodb format to our ui needed json
 
 def studentEntity(db_item) -> dict:
     return {
@@ -12,5 +12,5 @@ def listOfStudentEntity(db_item_list) -> list:
     list_stud_entity = []
     for item in db_item_list:
         list_stud_entity.append(studentEntity(item))
-        
+
     return list_stud_entity   

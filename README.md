@@ -25,3 +25,26 @@ Before you begin, ensure you have met the following requirements:
 - Pip package manager installed.
 - A code editor (e.g., VSCode) for development.
 - MongoDB install on your system.
+
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+https://github.com/Pundit4Real/Fastapi-MongoDB-CRUD_app.git
+2. Create a virtual environment (recommended):
+   ```bash
+   python -m venv ('environment name')
+3. Activate the virtual environment:
+   ```bash
+   - On Windows:
+   venv\Scripts\activate
+   
+   - On macOS and Linux:
+   source venv/bin/activate
+
+4. Install the required dependencies:
+    `pip install -r requirements.txt`

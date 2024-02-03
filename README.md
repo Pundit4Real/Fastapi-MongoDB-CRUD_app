@@ -35,7 +35,9 @@ Before you begin, ensure you have met the following requirements:
 
         https://github.com/Pundit4Real/Fastapi-MongoDB-CRUD_app.git
 2. Create a virtual environment (recommended):
+
         python -m venv ('environment name')
+        
 3. Activate the virtual environment:
    ```bash
    - On Windows:

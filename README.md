@@ -52,7 +52,7 @@ Before you begin, ensure you have met the following requirements:
     `pip install -r requirements.txt`
 
 
-### Database Setup
+## Database Setup
 
 With MongoDB install on your system;
  
@@ -66,7 +66,7 @@ Write this line of code in your database.py file to establish the connection wit
         connection = MongoClient("mongodb://localhost:27017/student")
 
 
-### Running the Api
+## Running the Api
 
 *To start the server, run the following commands;*
 
@@ -78,3 +78,8 @@ Replace your_app_name with the actual name of your FastAPI application file.
 
 The endpoint will be available at 
 __http://127.0.0.1:8000/docs__
+
+
+## The Endpoints
+
+### Follow the swagger ui to test the various endpoints

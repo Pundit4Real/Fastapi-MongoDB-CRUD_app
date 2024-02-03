@@ -63,4 +63,18 @@ Write this line of code in your database.py file to establish the connection wit
 
         from pymongo import MongoClient
 
-        connection = MongoClient("mongodb://localhost:27017/tests")
+        connection = MongoClient("mongodb://localhost:27017/student")
+
+
+### Running the Api
+
+*To start the server, run the following commands;*
+
+        uvicorn your_app_name:app --reload 
+        or
+        python -m uvicorn your_app_name:app --reload
+
+Replace your_app_name with the actual name of your FastAPI application file.
+
+The endpoint will be available at 
+__http://127.0.0.1:8000/docs__

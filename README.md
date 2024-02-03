@@ -16,3 +16,12 @@ This is a simple fastApi CRUD app with MongoDB integration as the database that 
     - [Delete a student profile](#Delete-a-student)
 - [Limitations and Assumptions](#Limitations-and-assumptions)
 
+
+## Pre-requisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3.x installed.
+- Pip package manager installed.
+- A code editor (e.g., VSCode) for development.
+- MongoDB install on your system.

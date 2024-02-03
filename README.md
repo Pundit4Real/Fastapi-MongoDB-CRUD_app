@@ -48,6 +48,7 @@ Before you begin, ensure you have met the following requirements:
    source venv/bin/activate
 
 4. Install the required dependencies:
+
     `pip install -r requirements.txt`
 
 
@@ -62,4 +63,4 @@ Write this line of code in your database.py file to establish the connection wit
 
         from pymongo import MongoClient
 
-        connection = MongoClient("mongodb://localhost:27017/student")
+        connection = MongoClient("mongodb://localhost:27017/tests")

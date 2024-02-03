@@ -34,10 +34,11 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
         https://github.com/Pundit4Real/Fastapi-MongoDB-CRUD_app.git
+
 2. Create a virtual environment (recommended):
 
         python -m venv ('environment name')
-        
+
 3. Activate the virtual environment:
    ```bash
    - On Windows:
@@ -48,3 +49,17 @@ Before you begin, ensure you have met the following requirements:
 
 4. Install the required dependencies:
     `pip install -r requirements.txt`
+
+
+### Database Setup
+
+With MongoDB install on your system;
+ 
+create a directory called __config.__
+Inside the config directory, create a file called __database.py__ which will contain all the database connection codes.
+
+Write this line of code in your database.py file to establish the connection with MongoDB server.
+
+        from pymongo import MongoClient
+
+        connection = MongoClient("mongodb://localhost:27017/student")

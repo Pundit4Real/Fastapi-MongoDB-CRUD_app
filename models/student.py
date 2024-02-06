@@ -6,3 +6,4 @@ class Student(BaseModel):
     student_email: str
     student_phone: str
     student_program: str
+    student_department: str

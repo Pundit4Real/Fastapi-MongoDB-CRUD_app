@@ -5,7 +5,8 @@ def studentEntity(db_item) -> dict:
         "name": db_item.get("student_name", "N/A"),
         "email": db_item.get("student_email", "N/A"),
         "phone": db_item.get("student_phone", "N/A"),
-        "program": db_item.get("student_program","N/A")
+        "program": db_item.get("student_program","N/A"),
+        "department":db_item.get("student_department","N/A")
     }
 
 

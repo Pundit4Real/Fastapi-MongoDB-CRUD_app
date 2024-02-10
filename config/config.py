@@ -11,7 +11,7 @@ client = MongoClient(uri)
 
 db = client.myBlogs
 
-blogsCollection = db['my blogs']
+blogsCollection = db['Blogs']
 
 # Create a new client and connect to the server
 try:

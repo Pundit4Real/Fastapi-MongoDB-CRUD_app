@@ -7,14 +7,6 @@ from bson import ObjectId
 endpoints = APIRouter()
 
 
-@endpoints.get('/')
-async def home():
-    return {
-        "string":"ok",
-        "message":"My first api is running"
-    }
-
-
 @endpoints.post('/newblog')
 async def create_blog(blog:Blog):
     blogsCollection.insert_one(dict(blog))
@@ -50,4 +42,12 @@ async def update_blog(id:str,blog:Blog):
     return {
         "status": "ok",
         "message": "Data have been updated"
+    }
+
+@endpoints.delete("/delete/{id}")
+async def delete_blog(id:str):
+    blogsCollection.find_one_and_delete({"_id":ObjectId(id)})
+    return {
+        "status":"ok",
+        "message": "Blog have deleted successfully"
     }
